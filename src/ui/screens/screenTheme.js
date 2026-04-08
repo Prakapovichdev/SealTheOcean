@@ -1,0 +1,40 @@
+export const SCREEN_THEME = {
+  colors: {
+    accent: '#22f0a8',
+    accentSoft: 'rgba(34,240,168,.45)',
+    accentStrong: 'rgba(34,240,168,.8)',
+    panel: 'rgba(0,14,30,.96)',
+    panelSoft: 'rgba(0,12,26,.85)',
+    text: '#fff',
+    textSoft: 'rgba(180,248,228,.78)',
+    textDim: 'rgba(180,248,228,.6)',
+    titleGlow: 'rgba(150,210,255,.5)',
+    scoreText: '#e8fff8',
+    lossTitle: '#e0f4ff',
+  },
+
+  fonts: {
+    titleLg: '700 28px "Segoe UI",sans-serif',
+    titleMd: '700 26px "Segoe UI",sans-serif',
+    modalTitle: '600 24px "Segoe UI",sans-serif',
+    pauseTitle: '600 22px "Segoe UI",sans-serif',
+    buttonLg: '700 20px "Segoe UI",sans-serif',
+    buttonMd: '600 17px "Segoe UI",sans-serif',
+    buttonSm: '500 16px "Segoe UI",sans-serif',
+    bodyMd: '600 18px "Segoe UI",sans-serif',
+    bodySm: '400 14px "Segoe UI",sans-serif',
+    caption: '400 13px "Segoe UI",sans-serif',
+    hint: '400 12px "Segoe UI",sans-serif',
+    preview: '500 11px "Segoe UI",sans-serif',
+    previewSm: '500 10px "Segoe UI",sans-serif',
+  },
+
+  glow: {
+    panel: 18,
+    panelStrong: 22,
+    button: 14,
+    buttonStrong: 28,
+    title: 18,
+    emoji: 40,
+  },
+};
