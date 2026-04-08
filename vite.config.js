@@ -6,7 +6,6 @@ export default defineConfig(({ mode }) => ({
   root: '.',
   publicDir: false,
 
-  // Strip debug code in production via import.meta.env.DEV
   define: {
     __DEV__: mode === 'development',
   },
